@@ -781,7 +781,7 @@ def load_data_alunos():
 
 @st.cache(allow_output_mutation=True, show_spinner=False)
 def load_data_professores():
-  dados_professores = pd.read_csv('SUP_DOCENTE_2019(reduzido).CSV', sep='|', encoding='ISO-8859-1')
+  dados_professores = pd.read_csv('SUP_DOCENTE_2019.CSV', sep='|', encoding='ISO-8859-1')
   return dados_professores
 
 if __name__ == '__main__':
